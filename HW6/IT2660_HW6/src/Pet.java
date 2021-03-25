@@ -43,7 +43,6 @@ public class Pet {
     }
 
     public void recursivePrint(Pet pet){
-        Pet temp = this;
         if (pet == null) return;
 
         System.out.println(pet.getName());
